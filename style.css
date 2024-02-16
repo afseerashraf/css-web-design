@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    letter-spacing: 1px;
 }
 body{
     margin: 0;
@@ -28,7 +29,6 @@ header a{
     text-decoration:none;
     margin-right: 100px;
     font-size: 14px;
-    letter-spacing: 1px;
     color: rgba(170, 108, 108, 0.719);
     font-family: Tahoma;
 }
@@ -87,6 +87,7 @@ header a:hover{
     cursor: pointer;
  }
 
+ 
  /* right section form*/
 .right-section{
     width: 400px;
@@ -170,7 +171,7 @@ color: rgb(136, 136, 136)
  .card-continer{
     width: 350px;
     border-radius: 15px;
-    box-shadow:3px 3px 20px rgb(98, 94, 94);
+    box-shadow:3px 3px 20px rgb(241, 156, 156);
     overflow: hidden;
     text-align: center;
  }
@@ -194,22 +195,43 @@ color: rgb(136, 136, 136)
 }
  /* end section2 */
 
+ /* aboutus */
+ .section3 {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    padding-bottom:250px ;
+    margin-right: 100px;
+}
+
+.aboutus {
+    max-width: 50%; /* Adjust width as needed */
+
+}
+
+
+ /* end aboutus */
+
  /* footer */
 
  footer{
+    
+    height:210px;
+    width:100%;
+    background-color: rgb(236, 213, 230)
+ }
+ footer .box p{
     text-align: center;
-    color: grey;
-    padding: 15px;
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    padding-top: 170px;
  }
 
- footer span{
-    color: var(--primary-color);
+ footer .box span{
+    font-style:normal ;
     font-weight: bold;
+    color: blueviolet;
  }
- datalist{
-    margin-right: -49px;
-    position: absolute;
- }
- 
  
  /* enf footer */
